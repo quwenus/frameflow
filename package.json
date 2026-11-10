@@ -1,0 +1,15 @@
+{
+  "name": "frameflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test test/*.test.js",
+    "check": "node --check server.js && node --check lib.js && node --check public/app.js",
+    "package:windows": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/package-windows.ps1"
+  },
+  "engines": {
+    "node": ">=22.9"
+  }
+}

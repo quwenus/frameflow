@@ -1,0 +1,7 @@
+.env
+.data/
+node_modules/
+tools/
+dist/
+.launcher.lock
+.launcher-*.log

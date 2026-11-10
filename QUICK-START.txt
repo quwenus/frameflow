@@ -1,0 +1,20 @@
+FRAMEFLOW - WINDOWS LOCAL APP
+
+1. Extract the entire ZIP into a writable folder (for example Documents).
+   Do not run the app from inside the ZIP preview.
+2. Double-click Setup.cmd once. It installs missing dependencies using winget.
+   Internet access is required; Windows may ask for installer permission.
+3. Double-click Start.cmd. Your browser opens when the app is ready.
+4. Paste a YouTube video link, choose a format, and convert.
+5. Keep the launcher window open. Press Ctrl+C to stop Frameflow.
+
+The app runs on your computer and is accessible only through localhost.
+The port is chosen automatically and may change each time you start it.
+No hosting account, subscription, or npm install is needed.
+Node.js 22.9+, yt-dlp, FFmpeg, and ffprobe are required; Setup.cmd installs them.
+The ZIP does not bundle third-party executables. Internet is needed for conversion.
+
+If setup fails, see README.md for manual installation instructions.
+Only convert content you own or have permission to download.
+To update: extract a newer release into a new folder and run Start.cmd there.
+To remove: stop the app and delete its folder. Shared dependencies remain installed.
